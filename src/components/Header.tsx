@@ -11,13 +11,15 @@ export default function Header({ className }: HeaderProps) {
         </div>
         <nav className="flex gap-8">
           <a
-            href="#features"
+            href="https://minecraft.net/ru-ru/article"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white hover:text-green-300 transition-colors duration-300 uppercase text-sm font-semibold"
           >
             Возможности
           </a>
           <a
-            href="#footer"
+            href="tel:+79539890507"
             className="text-white hover:text-green-300 transition-colors duration-300 uppercase text-sm font-semibold"
           >
             Контакты
